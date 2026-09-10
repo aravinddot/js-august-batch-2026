@@ -48,7 +48,11 @@ let newValue = undefined
                         // 0            1   2   3       4               5
 const automationTools = ["playwright", 6, true, null, undefined, ["cypress", "selenium"], {name: "JavaScript"}]
                                                                     //0        1
-// console.log(automationTools[5][1])
+console.log(automationTools[0], automationTools[5][1])
+
+console.log(automationTools[0])
+
+
 
 
 // 2. Object
@@ -66,7 +70,7 @@ const obj = {
 
 // dot notation
 
-//console.log(obj.nestedObj.name) // static
+//console.log(obj.array[0]) // static
 
 // bracket notation
 
